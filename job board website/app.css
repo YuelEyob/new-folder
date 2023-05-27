@@ -1,0 +1,294 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  #hero {
+    background-image: url("Free_Sample.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .job-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .job-card p {
+    margin-bottom: 8px;
+    color: #777;
+  }
+  
+  .job-card .requirements {
+    margin-top: 12px;
+  }
+  
+  .job-card .apply-btn {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .job-card .apply-btn:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .apply-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .employer-profile {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .view-profile-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    #hero {
+      padding: 20px;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+}
+/* Contact Page Styles */
+
+.contact {
+  padding: 50px;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.contact button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #45a049;
+}
+
+.contact .success-message {
+  margin-top: 20px;
+  color: #4CAF50;
+}
+
+.contact .error-message {
+  margin-top: 20px;
+  color: #f44336;
+}
+
+ /* Contact form styles */
+ .contact {
+  background-color: #f7f7f7;
+  padding: 50px;
+}
+
+.contact h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.contact label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* CV upload form styles */
+.cv-upload-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.cv-upload-form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cv-upload-form input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.cv-upload-form button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .contact input,
+  .contact textarea {
+    width: 100%;
+  }
+}
+
+.text-gradient {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.text-gradient:hover {
+  color: #ff00ff; /* Change to the desired hover color */
+}
+
+.text-gradient::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff00ff; /* Change to the desired underline color */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.text-gradient:hover::before {
+  transform: scaleX(1);
+}

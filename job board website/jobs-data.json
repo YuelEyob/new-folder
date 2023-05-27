@@ -1,0 +1,53 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Nail technician",
+        "location": "city London",
+        "description": "We are seeking a skilled and creative Nail Technician to join our team. Must have a minimum of 3 years of experience in cutting, styling, and coloring nails.",
+        "applyLink": "https://example.com/apply/1"
+      },
+      {
+        "id": 2,
+        "title": "Esthetician",
+        "location": "City London",
+        "description": "We are hiring an esthetician to provide a range of skin care services to our clients. Must be knowledgeable in facials, waxing, and various skin treatments.",
+        "applyLink": "https://example.com/apply/2"
+      },
+      {
+        "id": 3,
+        "title": "Makeup Artist",
+        "location": "City London",
+        "description": "We are looking for a talented makeup artist to join our team. Must have a strong portfolio showcasing expertise in bridal, editorial, and special event makeup.",
+        "applyLink": "https://example.com/apply/3"
+      },
+      {
+        "id": 3,
+        "title": "Nail Technician",
+        "location": "City London",
+        "description": "We are hiring a skilled nail technician to join our salon. Must have experience in manicures, pedicures, nail extensions, nail art, and other nail services. Knowledge of different nail products and techniques is required.",
+        "requirements": [
+          "Certification in nail technology",
+          "Proven experience as a nail technician",
+          "Strong knowledge of nail care products and techniques",
+          "Excellent customer service skills"
+        ],
+        "applyLink": "https://example.com/apply/4"
+      },
+      {
+        "id": 4,
+        "title": "Senior Nail Technician",
+        "location": "City London",
+        "description": "We are seeking an experienced senior nail technician to lead our nail services team. Must have expertise in nail enhancements, gel manicures, and nail repairs. Strong leadership and training skills are required.",
+        "requirements": [
+          "Certification in nail technology",
+          "Minimum 5 years of experience as a nail technician",
+          "Expertise in gel manicures, nail enhancements, and repairs",
+          "Leadership and training abilities"
+        ],
+        "applyLink": "https://example.com/apply/5"
+      }
+    ]
+  }
+  
+  
